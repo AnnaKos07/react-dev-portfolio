@@ -7,7 +7,7 @@ const ContactForm = () => {
       <h1>Let&apos;s get in touch</h1>
       <br/>
       <p>I'm currently looking to join a cross-functional team that values improving people's lives
-through accessible design. or have a project in mind?</p>
+through accessible design.</p>
       </div>
       <div className="contact-info">
         <p> I am always ready for collaboration.</p>
