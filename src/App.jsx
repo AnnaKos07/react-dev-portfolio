@@ -11,13 +11,13 @@ import skills from "./content/skills";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import blogPosts from "./content/blogPosts";
 import ContactForm from "./components/ContactForm";
-import BlogPost from "./components/BlogPost";
+import { Grid, Box } from '@mui/material';
 
 function App() {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true });
+  const getRandomXs = () => Math.floor(Math.random() * (2 - 1 + 1)) + 2;
 
   useEffect(() => {
     if (inView) {
@@ -50,7 +50,7 @@ function App() {
         description={information.userData.description}
         title={information.userData.title}
       />
-      <div className="hr"></div>
+      <div class="spacing"/>
 
       <section id="projects">
         <Heading firstWord="My" secondWord="Projects" />
@@ -65,17 +65,20 @@ function App() {
             <div key={index}>
               <ProjectCard
                 name={project.name}
-                img={project.img}
                 description={project.description}
-                source={project.sourceCode}
-                preview={project.preview}
+                responsibilities={project.responsibilities}
+                achievements={project.achievements}
+                img={project.img}
+                link={project.link}
+                source={project.source}
               />
             </div>
           ))}
         </motion.div>
       </section>
+      <div class="spacing"/>
       <section id="skills">
-        <Heading firstWord="Skills" secondWord="&Tools" />
+        <Heading firstWord="Skills"/>
         <motion.div
           className="skill-map"
           ref={ref}
@@ -83,30 +86,16 @@ function App() {
           animate={controls}
           variants={containerVariants}
         >
+           <Grid container spacing={0.2} justifyContent="left">
           {skills.map((skill, index) => (
-            <motion.div key={index} variants={skillVariants}>
-              <Skill skill={skill} />
-            </motion.div>
+            <motion.div variants={skillVariants}>
+            <Skill skill={skill}/>
+          </motion.div>
           ))}
+        </Grid>
         </motion.div>
       </section>
-      <section id="blog">
-        <Heading firstWord="My" secondWord="Blog" />
-        <div className="posts">
-          {blogPosts.map((post, index) => (
-            <BlogPost
-              key={index}
-              title={post.title}
-              image={post.image}
-              read={post.link}
-              date={post.pubDate}
-            />
-          ))}
-        </div>
-        <a className="cyber-scourge" href="https://blog.randiltharusha.me">
-          View More Posts
-        </a>
-      </section>
+      <div class="spacing"/>
       <section id="contact">
         <Heading firstWord="Contact" secondWord="Me" />
         <ContactForm />

@@ -3,7 +3,9 @@ import PropTypes from "prop-types";
 const Skill = (props) => {
   return (
     <div className="skill">
-      <img src={`/skills/${props.skill}`} alt="" className="skill-img" />
+      <div className="scevo">
+        <p>{props.skill}</p>
+      </div>
     </div>
   );
 };

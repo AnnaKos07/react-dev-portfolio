@@ -5,8 +5,8 @@ const Heading = (props) => {
     <div className="heading hero-text">
       <h1>
         &lt;
-        {props.firstWord}
-        <span>{props.secondWord}/&gt;</span>
+        {props.firstWord} 
+        <span>_{props.secondWord}/&gt;</span>
       </h1>
     </div>
   );
@@ -14,7 +14,6 @@ const Heading = (props) => {
 
 Heading.propTypes = {
   firstWord: PropTypes.string.isRequired,
-  secondWord: PropTypes.string.isRequired,
 };
 
 export default Heading;

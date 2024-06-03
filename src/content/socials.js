@@ -1,19 +1,19 @@
 const socials = [
   {
-    icon: "github.svg",
-    url: "https://github.com/randilt",
+    icon: "Linkedin",
+    url: "https://www.linkedin.com/in/anna-kostrytsa0705/",
   },
   {
-    icon: "linkedin.svg",
-    url: "https://www.linkedin.com/in/randiltharusha/",
+    icon: "Instagram",
+    url: "https://www.instagram.com/anna.kos7/",
   },
   {
-    icon: "instagram.svg",
-    url: "https://www.instagram.com/itz_toxic03/",
+    icon: "Notion",
+    url: "https://interaction-design-portfolio.notion.site/I-am-Hanna-Kastrytsa-a1b67e6e537c4d7dadd8694d96f7d04b?pvs=4",
   },
   {
-    icon: "facebook.svg",
-    url: "https://facebook.com/profile.php?id=100089910035602",
+    icon: "Behance",
+    url: "https://www.behance.net/annakostrytsa",
   },
 ];
 

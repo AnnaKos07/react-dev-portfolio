@@ -1,12 +1,12 @@
 //personal information start
 
 const userData = {
-  firstName: "<Randil",
-  lastName: "Tharusha/>",
+  firstName: "Hanna",
+  lastName: " Kastrytsa",
   title: "About Me",
-  img: "https://pics.craiyon.com/2023-10-30/66ff0c95358e458c859ecea5d3764b32.webp",
+  img: "https://images.ctfassets.net/3i4n4r7kp8f6/1oeDjOsXqvlXtenb2FRr3H/5717ef0d0b2ccea89d0ed397685f4545/profile_photo.png",
   description:
-    "Hey there! 👋 I'm Randil, a passionate Software Engineering undergrad at Staffordshire University. 💻 By day, I'm a tech enthusiast exploring the wonders of coding, and by night, I transform into an aspiring full-stack developer. 🌌 My journey spans from crafting code to delving into the realms of IoT, cybersecurity, AI, and ML. When not in the digital world, you'll find me navigating the strategic landscape of League of Legends for some competitive fun. Let's connect and embark on an exciting adventure through the vast universe of technology! 🚀 ",
+    "Welcome to my portfolio, which showcases my expertise in product design. I have a keen eye for detail and a commitment to innovation, specialising in creating compelling and functional product experiences. ",
 };
 
 //personal information end

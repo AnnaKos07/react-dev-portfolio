@@ -1,24 +1,22 @@
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 import Heading from "./Heading";
-import socials from "../content/socials";
 import Typewriter from "typewriter-effect";
 
 const Hero = (props) => {
   return (
     <div className="container">
       <motion.div
-        initial={{ scale: 0 }}
-        animate={{ rotate: 360, scale: 1 }}
+        initial={{ scale: 1 }}
+        animate={{ rotate: 0, scale: 1 }}
         transition={{
           type: "spring",
           stiffness: 260,
-          damping: 20,
+          damping: 10,
         }}
-        whileHover={{ scale: 1.3, rotate: 10 }}
+        whileHover={{ scale: 1, rotate: 2 }}
         whileTap={{
-          scale: 0.8,
-          rotate: -90,
+          scale: 1,
           borderRadius: "100%",
         }}
         className="pfp"
@@ -26,16 +24,15 @@ const Hero = (props) => {
         <img src={props.img} alt="" />
       </motion.div>
 
-      <Heading firstWord="Who" secondWord="AmI?" />
+      <Heading firstWord="Hanna" secondWord="Kastrytsa" />
       <div className="hero-typewriter">
-        <h3>I am</h3>
         <Typewriter
           options={{
             strings: [
-              "An Aspiring Developer",
-              "An AI & ML Enthusiast",
-              "An IoT Enthusiast",
-              "A Student",
+              "Interaction Designer",
+              "UX/UI Enthusiast",
+              "Interface Architect",
+              "Developer"
             ],
             autoStart: true,
             loop: true,
@@ -45,31 +42,17 @@ const Hero = (props) => {
       </div>
       {/* <HeroHeading /> */}
       <div className="button-effect">
-        {/* <button className="glowing-btn">
-          <span className="glowing-txt">
-            <span className="faulty-letter">IAM</span>
-          </span>
-        </button>
-        <br />
-        <button className="glowing-btn">
-          <span className="glowing-txt">
-            <span className="faulty-letter">R</span>ANDIL
-            <span className="faulty-letter">T</span>HARUSHA
-          </span>
-        </button> */}
         <div className="hero-text">
           <p className="hero-desc">{props.description}</p>
         </div>
-        <br />
-        <br />
-        Find me on:
+        {/* Find me on:
         <div className="hero-socials">
           {socials.map((social, index) => (
             <a key={index} href={social.url}>
               <img src={`/socials/${social.icon}`} alt="" />
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
