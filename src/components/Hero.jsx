@@ -11,7 +11,7 @@ const Hero = (props) => {
         animate={{ rotate: 0, scale: 1 }}
         transition={{
           type: "spring",
-          stiffness: 260,
+          stiffness: 240,
           damping: 10,
         }}
         whileHover={{ scale: 1, rotate: 2 }}

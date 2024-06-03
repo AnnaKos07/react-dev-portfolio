@@ -8,15 +8,8 @@ const Navbar = (props) => {
     <header className="header">
       <nav>
         <div className="logo">
-        <a className="menu-head">
-            --- Portfolio ---
-          </a>
-          <a href="https://www.linkedin.com/in/anna-kostrytsa0705/">by <span/>
-            {props.firstName}
-            <span>{props.lastName}</span>
-          </a>
           <a href="mailto:hannakastrytsa@gmail.com">
-            hannakastrytsa@gmail.com
+            Say hello! 👋
           </a>
         </div>
         <input type="checkbox" id="menu-toggle" />
@@ -24,8 +17,6 @@ const Navbar = (props) => {
           &#9776;
         </label>
         <ul className="menu">
-          <li className="menu-head"> --- Menu --- </li>
-
           <li>
             <a href="#projects">Projects</a>
           </li>

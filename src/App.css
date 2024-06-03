@@ -1,14 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/technology?styles=26651");
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-:root {
-  --glow-color: hsl(0, 0%, 23%);
-}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "IBM Plex Sans Condensed", monospace;
+  font-family: "Source Sans 3", monospace;
   text-decoration: none;
   list-style: none;
 }
@@ -20,7 +18,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f4; 
+  background-color: #ffffff; 
   background-image: url('../public/BACKGROUND.png');
   background-position: center; 
   background-size: 100% auto;
@@ -29,8 +27,8 @@ body {
   background-repeat: repeat-y;
   color: #232327;
   margin: 12px;
-  border: 1px solid #232327;
-  font-family: "IBM Plex Sans Condensed", monospace;
+  border: 1px solid #4a4a4b;
+  font-family: "Source Sans 3", monospace;
 }
 
 p{
@@ -43,7 +41,7 @@ p{
 }
 
 .spacing {
-  height: 10vh;
+  height: 25vh;
 }
 
 @media (max-width: 2100px) {
@@ -62,7 +60,15 @@ p{
     height: 80%;
   }
   .footer {
+    display: flex;
     padding: 24px 120px;
+  }
+  .contact-info{
+    width: 50vw;
+    margin-left: 40px;
+  }
+  .contact-section {
+    padding: 40px 120px 120px 120px;
   }
 }
 
@@ -82,6 +88,7 @@ p{
     height: 80%;
   }
   .footer {
+    display: flex;
     padding: 24px 120px;
   }
 }
@@ -98,6 +105,7 @@ p{
     height: 80%;
   }
   .footer {
+    display: flex;
     padding: 24px 80px;
   }
 }
@@ -119,7 +127,13 @@ p{
     height: 80%;
   }
   .footer {
-    padding: 24px 40px;
+    padding: 24px 24px;
+  }
+  .social-link{
+    padding: 0px 8px 0px 8px;
+  }
+  .contact-section {
+    padding: 40px 24px 80px 24px;
   }
 }
 
@@ -142,12 +156,19 @@ p{
     font-size: 36px;
     letter-spacing: -1px;
   }
+  .contact-info{
+    width:100%;
+  }
+  .footer{
+    display: flex;
+    flex-direction:column-reverse;
+  }
 }
 .header {
   position: sticky;
   top: 0;
   z-index: 1;
-  font-family: "IBM Plex Sans Condensed";
+  font-family: "Roboto Flex", sans-serif;
 }
 
 nav {
@@ -155,54 +176,44 @@ nav {
   justify-content: space-between;
   align-items: top;
   width: 100%;
+  backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 .logo{
   display: flex;
   flex-direction: column;
-  border-right: 1px solid #232327;
-  border-bottom: 1px solid #232327;
-  height: 80%;
   padding: 16px;
-  background-color: #f4f4f4;
+  background-color: #232327;
 }
 
 .logo a{
   padding: 8px;
   text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Roboto Flex", sans-serif;
   transition: 0.2s all ease-in-out;
+  color: #ffffff;
 }
 
 .menu {
+  display: flex;
   padding: 16px;
-  border-left: 1px solid #232327;
-  border-bottom: 1px solid #232327;
   transition: 0.2s all ease-in-out;
   color: #232327;
-  background-color: #f4f4f4;
 }
 
 .menu a {
   display: block;
-  padding: 8px 8px;
-  font-size: 16px;
+  padding: 8px 16px;
+  font-size: 18px;
   text-align: center;;
-  font-weight: 400;
-  font-family: "IBM Plex Sans Condensed", monospace;
+  font-weight: 300;
+  font-family: "Roboto Flex", sans-serif;
   transition: 0.2s all ease-in-out;
   color: #232327;
 }
-
-.menu-head{
-  text-align: center;
-  padding: 0 8px 8px 8px;
-  margin-bottom: 8px;
-  border-bottom: 1px solid #232327;
-}
-
-/* .menu:hover a {
-  opacity: 0.4;
-} */
 
 .menu a:hover {
   opacity: 1;
@@ -232,11 +243,11 @@ nav {
     background: rgba(235, 235, 235, 0.3);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
-    border: 1px 0 solid rgba(255, 255, 255, 0.18);
+    border: 1px 0 solid #4a4a4b;
 
     align-items: start;
     position: absolute;
-    top: 64px;
+    top: 72px;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -254,11 +265,8 @@ nav {
   }
 
   .menu-icon {
-    background-color: #f4f4f4;
     display: block;
-    padding: 16px 18px;
-    border-bottom: 1px solid #232327;
-    border-left: 1px solid #232327;
+    padding: 16px;
     height: 64px;
     color: #232327;
     font-size: 24px;
@@ -274,22 +282,22 @@ nav {
 /* hero styles */
 .hero-text {
   display: flex;
-  font-family: "IBM Plex Sans Condensed", monospace;
+  font-family: "Roboto Flex", sans-serif;
   flex-direction: column;
   justify-content: center;
   margin-top: 16px;
-  
+  letter-spacing: -0.8px;
 }
 .hero-text p {
   font-family: "Source Sans 3";
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 155%;
-  padding: 0 15vw;
+  padding: 0 20vw;
 }
 .hero-text h1 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 10px;
 }
 .pfp {
@@ -307,11 +315,10 @@ nav {
 
 
 .footer {
-
+  display: flex;
+  justify-content: space-between;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-
-  padding: 24px 120px;
   text-align: left;
 
   bottom: 0;
@@ -320,13 +327,13 @@ nav {
 
 .heading h1 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
 }
 
 h3{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 300;
   color: #65656D;
 }
 
@@ -337,7 +344,7 @@ h3{
     margin-left: 0px;
   }
   .hero-text p {
-    font-size: 14px;
+    font-size: 20px;
     padding: 30px;
   }
 }
@@ -352,13 +359,12 @@ h3{
 
 .project-card {
   position: relative;
-  margin: 0.5px 0.5px;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.6s ease;
-  border: 0.5px solid #222;
+  border: 0.5px solid #4a4a4b;
 }
 .project-card:hover {
   transition: transform 0.6s ease;
@@ -404,7 +410,7 @@ h3{
 
 .project-title h2{
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .project-tag p {
@@ -421,7 +427,7 @@ h3{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   padding: 20px;
   border: none;
   max-width: none; /* Убираем ограничение на максимальную ширину */
@@ -429,9 +435,9 @@ h3{
 }
 
 .modal-left {
-  width: 50%; /* 50% ширины модального окна */
+  width: 50%;
   height: 100%;
-  background-color: #f0f0f0; /* Замените на нужный цвет */
+  background-color: #ffffff; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -462,7 +468,7 @@ h3{
 .modal-title h2{
   margin-bottom: 20px;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .modal-description {
@@ -470,7 +476,7 @@ h3{
 }
 
 .modal-description h4{
-  font-weight: 500;
+  font-weight: 300;
   font-size: 18px;
 }
 
@@ -568,7 +574,7 @@ h3{
   border-radius: 2px;
 }
 .skill {
-  padding: 10px;
+  padding: 8px;
   display: flex;
   justify-content: left;
   align-items: top;
@@ -578,9 +584,9 @@ h3{
 }
 
 .scevo{
-  border-radius: 80px;
-  background-color: #f4f4f4;
-  box-shadow: 4px 6px 6px 0px rgba(58, 58, 58, 0.15), -2px -2px 2.9px 0px rgba(255, 255, 255, 0.25), 0px -3px 4.3px 0px rgba(255, 255, 255, 0.25), 0px 1px 1px 0px rgba(255, 255, 255, 0.90);
+  border-radius: 2px;
+  border: 1px solid #4a4a4b;
+  background-color: #ffffff;
   display: flex; /* Flexbox для центрирования */
   align-items: center; /* Вертикальное центрирование */
   justify-content: center; /* Горизонтальное центрирование */
@@ -593,7 +599,7 @@ h3{
 
 .scevo p{
   display: flex;
-  padding: 10px 32px;
+  padding: 4px 24px;
 }
 
 @media (max-width: 768px) {
@@ -609,46 +615,27 @@ h3{
 
 .scevo p{
   display: flex;
-  padding: 10px 16px;
+  padding: 6px 16px;
 }
 }
 
 .hero-socials{
   display: flex;
-  flex-wrap: wrap;
-  width: 50%;
 }
 
 .social-link{
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
   color:#232327;
-  width: 45%;
-  padding: 120px 0px 16px 16px;
+  padding: 0px 32px 0px 0px;
   text-decoration: none; /* Убираем подчеркивание текста */
   position: relative; /* Для использования псевдоэлемента */
-}
-
-
-.hero-socials .social-link::after {
-  content: '';
-  position: absolute;
-  z-index: -2;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 1%;
-  background-color:#232327;
-  transition: height 0.5s ease-in-out;
-}
-
-.hero-socials .social-link:hover::after {
-  width: 100%;
-  height:100%;
-  color: white;
+  transition: 0.2s all ease-in-out;;
 }
 
 .hero-socials .social-link:hover {
-  color: white; 
+  color: #e95efe;
 }
 
 #contact {
@@ -661,35 +648,31 @@ h3{
 }
 
 .contact-section {
-  padding: 40px 120px 80px 120px;
   width: 100%;
   display: flex;
-  align-items:start;
-  justify-content: stretch;
-  gap: 40px;
-
-
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.contact-info {
-  width: 50%;
-  height: 100%;
-  border-radius: 20px;
-  padding-bottom: 8%;
+
+.contact-info p{
+  font-size: 16px;
+  line-height: 32px;
 }
 
-.contact-info h1{
-  font-weight: 400;
-  font-size: 48px;
-  padding: 0 0 24px 0;
-  letter-spacing: -2px;
+.contact-section h1{
+  font-weight: 500;
+  font-family: "Roboto Flex";
+  letter-spacing: -1px;
+  font-size: 64px;
 }
 
 .contact-info a{
   margin-top: 8px;
+  padding-bottom: 24px;
   font-size: 24px;
   letter-spacing: -0.5px;
-  color: #a224b5;
+  color: #232327;
   transition: 0.2s all ease-in-out;;
 }
 
@@ -709,8 +692,8 @@ h3{
   .contact-info {
     margin-left: 0px;
     padding-bottom: 20px;
-    max-width: 80%;
-    margin: 30px;
+    max-width: 100%;
+    margin: 24px 0px;
     flex: 1;
   }
   
@@ -785,11 +768,11 @@ h3{
   margin-top: 8px;
   gap: 10px;
   font-size: 88px;
-  letter-spacing: -4px;
 }
 .Typewriter__wrapper {
-  font-weight: 400;
-  letter-spacing: -4px;
+  font-weight: 500;
+  font-family: "Roboto Flex";
+  letter-spacing: -2.5px;
 }
 @media (max-width: 768px) {
   .Typewriter__wrapper,
@@ -807,7 +790,16 @@ h3{
   }
   .hero-text h1 {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 10px;
+  }
+  .contact-section{
+    padding: 16px;
+  }
+  .hero-socials{
+    margin-bottom: 24px;
+  }
+  .spacing{
+    height: 10vh;
   }
 }
