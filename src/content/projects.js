@@ -1,6 +1,32 @@
 //projects start
 const projects = [
   {
+    name: "Luna Care",
+    description:
+      "Luna Care is a device designed to educate and assist young women in the management of cystitis and the proper use of antibiotics. Targeted at girls between the ages of 16 and 22, the device uses an LED interface to track menstrual cycle, monitor hydration, and manage antibiotic intake.",
+    responsibilities: [
+      "CTO",
+      "User Research",
+      "Interaction Design",
+      "MLL prototyping",
+      "Arduino programming",
+      "3D Modelling",
+    ],
+    achievements:
+      "Luna Care was born out of the need to improve young women's awareness of cystitis symptoms and the proper use of antibiotics. The device aims to provide daily support through three main modalities: menstrual cycle monitoring, hydration, and antibiotic management. The goal is to educate young women and promote healthy behaviors to prevent and manage urinary infections.",
+    img: [
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3okSCPGOjOEFDb625K06IU/cf47f5ac884df029ee5e87cad28e28a6/5.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/56aO4qie4JwO09jzX9eM6N/1ff61277e85f06834609b087e0ee22fa/1.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3nA2A39MhGPlbjuFDOVagr/f9c47decf968c364e89cbe477fafe9d9/2.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/5qQ4nZ01X0wEz5lWXLtbSZ/8262087a23ededc363dacc1aee3c359a/3.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/23Bfww8dmZKoksVXjT9ZBy/db73f581aca9e63d6096c13cb905383b/4.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/7wVQIW1DmATvVfSEkbdWwL/23f305bb751518a2a2dbaa1b8e4e0e60/6.jpg",
+    ],
+    link: "https://interaction-design-portfolio.notion.site/Luna-Care-bb55986f4dbb46a59976306b441c26b8?pvs=4",
+    source:
+      "https://www.notion.so/interaction-design-portfolio/Luna-Care-bb55986f4dbb46a59976306b441c26b8?pvs=4#118e81d259f34792b17224d9fb4835c7",
+  },
+  {
     name: "Collective.Money",
     description:
       "Platform provides users with instant access to information of interest about crypto projects in a form convenient for further use, with the possibility of training for new users in world of crypto.",
