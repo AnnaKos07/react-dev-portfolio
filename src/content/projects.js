@@ -3,17 +3,18 @@ const projects = [
   {
     name: "Luna Care",
     description:
-      "Luna Care is a device designed to educate and assist young women in the management of cystitis and the proper use of antibiotics. Targeted at girls between the ages of 16 and 22, the device uses an LED interface to track menstrual cycle, monitor hydration, and manage antibiotic intake.",
+      "Luna Care is a smart ecosystem designed to educate and assist young The goal of the ecosystem is to educate young women and promote healthy behavior to prevent and manage urinary infections. Luna Care includes three components: Luna Portable - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates.",
     responsibilities: [
       "CTO",
       "User Research",
       "Interaction Design",
-      "MLL prototyping",
+      "LLM training",
       "Arduino programming",
       "3D Modelling",
+      "Generative AI implementation",
     ],
     achievements:
-      "Luna Care was born out of the need to improve young women's awareness of cystitis symptoms and the proper use of antibiotics. The device aims to provide daily support through three main modalities: menstrual cycle monitoring, hydration, and antibiotic management. The goal is to educate young women and promote healthy behaviors to prevent and manage urinary infections.",
+      "Luna focuses on three key areas to promote healthy behavior and prevent urinary infections: Menstrual Cycle Monitoring: Luna Care helps women track their menstrual cycles, providing insights into their reproductive health. Hydration Management: Luna Care encourages regular water intake by sending reminders and tracking daily hydration levels. Pills / antibiotics Management: Luna prevent incorrect using of antibiotics and the self-treatment of UTI diseases ",
     img: [
       "https://images.ctfassets.net/3i4n4r7kp8f6/3okSCPGOjOEFDb625K06IU/cf47f5ac884df029ee5e87cad28e28a6/5.jpg",
       "https://images.ctfassets.net/3i4n4r7kp8f6/56aO4qie4JwO09jzX9eM6N/1ff61277e85f06834609b087e0ee22fa/1.jpg",
