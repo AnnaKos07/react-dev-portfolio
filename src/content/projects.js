@@ -46,6 +46,48 @@ const projects = [
     source: "https://collective.money/main",
   },
   {
+    name: "Beauty Market",
+    description:
+      "Beauty Market is an advanced ecosystem of Marketplace and CRM Platform for booking beauty service to find service providers, to make appointments and receive recommendations. User can easily find, book, rebook and reschedule their appointments.",
+    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
+    achievements:
+      "Since its launch in November 2023, the platform has effectively attracted initial salons. The Beauty Marketplace and CRM System, launched by the end of 2023, meet all requirements, with ongoing user feedback for enhancements. Over 50 diverse organisations offering various services have been attracted to the platform.",
+    img: [
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3aDQZeLUkkDRHIfKj0AnwI/44477d116422011cecff0af1cc3ed0d8/Beauty_01.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2Kpcz0pJPHyIAfeRnoSjTb/015c99d2917378d9a454a43c473b8693/0.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/5SAPQMX7xS4ipMmehJ27dv/958e53d9656f87b112167faaad4b2db9/371.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2lgTuGPNy2Q2d7RTt7TUGB/8e546539f0c9f147b02541d5a2c5977b/372.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1zD2qlILfwlmaaef7EIprP/7b6202417a1f25f4b162885d5c0aae41/374.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/6jzATCcHCZ1sX5PfuSpj4J/83fa4cba27431b665433274458973b81/373.png",
+    ],
+    link: "https://interaction-design-portfolio.notion.site/Beauty-Market-34fe4769112c48bf91b01f49bd2db3f6?pvs=4",
+    source: "https://beautymarket.co.il",
+  },
+  {
+    name: "Smart Garden",
+    description:
+      "No green thumb? No problem! With SmartGarden, your plant will tell you when it needs you. An interactive pot that helps you not to forget your green creatures and reminds you to water them.",
+    responsibilities: [
+      "UX Research",
+      "Interaction Design",
+      "3D Modelling",
+      "Arduino programming",
+    ],
+    achievements:
+      "Our approach wants to be more emotionally connected, making the user feel the vitality of the plant and making interactions with the user as if they were with a small living being. ",
+    img: [
+      "https://images.ctfassets.net/3i4n4r7kp8f6/5kGFFigIvLr0nhYA9xvMuP/fc4a22b887bfd4c213f15174f3620c18/pot_01.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/pq4dN4qns1WUjm0Z1zY2W/3e495ab05161bcb8c9dfb4620bef38d0/pot_02.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/4ft4qPxMuXY3EvHsSzkRwz/1c15ecc0589bf681fc624ec67c8f5799/pot_03.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3e2uDXrv7oelOJTn7mN80C/e8661f9703b4649ef87786187186760d/pot_05.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2PCNNJdu4TES1UgbZ1XAoY/2b1c334a1805299e5c12bd1c2ce41ee2/pot_04.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/6V6jo1q9LVzYOUnMMGutwd/601a39ddbff605595bc28f1afa66a9b0/pot_06.png",
+    ],
+    link: "https://interaction-design-portfolio.notion.site/Smart-Garden-cbd3575162524330a500702f656c8a59?pvs=4",
+    source:
+      "https://interaction-design-portfolio.notion.site/Smart-Garden-cbd3575162524330a500702f656c8a59?pvs=4",
+  },
+  {
     name: "Echoes of Exclusion",
     description:
       "Echoes of Exclusion is an art installation that confronts viewers with the hidden biases embedded within AI-generated imagery. As visitors step into the space, they encounter a series of interactive projections featuring AI-generated visuals. These visuals showcase everyday scenes and objects, but with subtle distortions and biases that reflect societal stereotypes and exclusions.",
@@ -67,24 +109,6 @@ const projects = [
     link: "https://interaction-design-portfolio.notion.site/Installation-Echoes-of-Exclusion-fa368b2c5a1f4096924d99c70e2daf0f?pvs=4",
     source:
       "https://www.exposed.photography/en/programme/maind-master-educational-program",
-  },
-  {
-    name: "Beauty Market",
-    description:
-      "Beauty Market is an advanced ecosystem of Marketplace and CRM Platform for booking beauty service to find service providers, to make appointments and receive recommendations. User can easily find, book, rebook and reschedule their appointments.",
-    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
-    achievements:
-      "Since its launch in November 2023, the platform has effectively attracted initial salons. The Beauty Marketplace and CRM System, launched by the end of 2023, meet all requirements, with ongoing user feedback for enhancements. Over 50 diverse organisations offering various services have been attracted to the platform.",
-    img: [
-      "https://images.ctfassets.net/3i4n4r7kp8f6/3aDQZeLUkkDRHIfKj0AnwI/44477d116422011cecff0af1cc3ed0d8/Beauty_01.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/2Kpcz0pJPHyIAfeRnoSjTb/015c99d2917378d9a454a43c473b8693/0.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/5SAPQMX7xS4ipMmehJ27dv/958e53d9656f87b112167faaad4b2db9/371.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/2lgTuGPNy2Q2d7RTt7TUGB/8e546539f0c9f147b02541d5a2c5977b/372.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/1zD2qlILfwlmaaef7EIprP/7b6202417a1f25f4b162885d5c0aae41/374.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/6jzATCcHCZ1sX5PfuSpj4J/83fa4cba27431b665433274458973b81/373.png",
-    ],
-    link: "https://interaction-design-portfolio.notion.site/Beauty-Market-34fe4769112c48bf91b01f49bd2db3f6?pvs=4",
-    source: "https://beautymarket.co.il",
   },
   {
     name: "Sandman lamp",
@@ -129,30 +153,6 @@ const projects = [
     ],
     link: "https://interaction-design-portfolio.notion.site/Dard-NFT-Marketplace-893926fddd9a4f2d97e5d86dc04a7f91?pvs=4",
     source: "https://nft.dardion.com",
-  },
-  {
-    name: "Smart Garden",
-    description:
-      "No green thumb? No problem! With SmartGarden, your plant will tell you when it needs you. An interactive pot that helps you not to forget your green creatures and reminds you to water them.",
-    responsibilities: [
-      "UX Research",
-      "Interaction Design",
-      "3D Modelling",
-      "Arduino programming",
-    ],
-    achievements:
-      "Our approach wants to be more emotionally connected, making the user feel the vitality of the plant and making interactions with the user as if they were with a small living being. ",
-    img: [
-      "https://images.ctfassets.net/3i4n4r7kp8f6/5kGFFigIvLr0nhYA9xvMuP/fc4a22b887bfd4c213f15174f3620c18/pot_01.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/pq4dN4qns1WUjm0Z1zY2W/3e495ab05161bcb8c9dfb4620bef38d0/pot_02.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/4ft4qPxMuXY3EvHsSzkRwz/1c15ecc0589bf681fc624ec67c8f5799/pot_03.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/3e2uDXrv7oelOJTn7mN80C/e8661f9703b4649ef87786187186760d/pot_05.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/2PCNNJdu4TES1UgbZ1XAoY/2b1c334a1805299e5c12bd1c2ce41ee2/pot_04.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/6V6jo1q9LVzYOUnMMGutwd/601a39ddbff605595bc28f1afa66a9b0/pot_06.png",
-    ],
-    link: "https://interaction-design-portfolio.notion.site/Smart-Garden-cbd3575162524330a500702f656c8a59?pvs=4",
-    source:
-      "https://interaction-design-portfolio.notion.site/Smart-Garden-cbd3575162524330a500702f656c8a59?pvs=4",
   },
 ];
 
