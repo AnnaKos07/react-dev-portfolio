@@ -28,24 +28,6 @@ const projects = [
       "https://www.notion.so/interaction-design-portfolio/Luna-Care-bb55986f4dbb46a59976306b441c26b8?pvs=4#118e81d259f34792b17224d9fb4835c7",
   },
   {
-    name: "Collective.Money",
-    description:
-      "Platform provides users with instant access to information of interest about crypto projects in a form convenient for further use, with the possibility of training for new users in world of crypto.",
-    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
-    achievements:
-      "100+ screens were designed based on 15+ user scenarious, 3% increased conversion after ALFA-launching, attracted +$200,000 investments",
-    img: [
-      "https://images.ctfassets.net/3i4n4r7kp8f6/2APVOrGupeQ9ZvjuWj1fdu/63ac30c519a8d697552ddf577d35a735/Collective_1.png",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/5qgCWUQgoOqao0kXbdZR6D/57476abd68c899f9697c74fea2859e19/1.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/6IrQXXYmtHaVizX4ipwP3D/5bb79c9ca99c61118fb867b740324086/2.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/45b7SmHkH5SMLyzG45dIwO/4c656a3b7000ca683baeb0644ba2d7ad/5.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/2ubp1Gj3miWvJO514cKrkQ/8fb64b373138f3199e881794eb8f95c4/3.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/b43FTvTB6EZNnLg33b5vE/1f60afa7c7be2187295ba3ae20843ca1/4.jpg",
-    ],
-    link: "https://interaction-design-portfolio.notion.site/Collective-Money-78c2f92c5fb041348c385dd78a74b5f7?pvs=4",
-    source: "https://collective.money/main",
-  },
-  {
     name: "Beauty Market",
     description:
       "Beauty Market is an advanced ecosystem of Marketplace and CRM Platform for booking beauty service to find service providers, to make appointments and receive recommendations. User can easily find, book, rebook and reschedule their appointments.",
@@ -62,6 +44,24 @@ const projects = [
     ],
     link: "https://interaction-design-portfolio.notion.site/Beauty-Market-34fe4769112c48bf91b01f49bd2db3f6?pvs=4",
     source: "https://beautymarket.co.il",
+  },
+  {
+    name: "Collective.Money",
+    description:
+      "Platform provides users with instant access to information of interest about crypto projects in a form convenient for further use, with the possibility of training for new users in world of crypto.",
+    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
+    achievements:
+      "100+ screens were designed based on 15+ user scenarious, 3% increased conversion after ALFA-launching, attracted +$200,000 investments",
+    img: [
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2APVOrGupeQ9ZvjuWj1fdu/63ac30c519a8d697552ddf577d35a735/Collective_1.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/5qgCWUQgoOqao0kXbdZR6D/57476abd68c899f9697c74fea2859e19/1.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/6IrQXXYmtHaVizX4ipwP3D/5bb79c9ca99c61118fb867b740324086/2.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/45b7SmHkH5SMLyzG45dIwO/4c656a3b7000ca683baeb0644ba2d7ad/5.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2ubp1Gj3miWvJO514cKrkQ/8fb64b373138f3199e881794eb8f95c4/3.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/b43FTvTB6EZNnLg33b5vE/1f60afa7c7be2187295ba3ae20843ca1/4.jpg",
+    ],
+    link: "https://interaction-design-portfolio.notion.site/Collective-Money-78c2f92c5fb041348c385dd78a74b5f7?pvs=4",
+    source: "https://collective.money/main",
   },
   {
     name: "Smart Garden",
@@ -111,6 +111,26 @@ const projects = [
       "https://www.exposed.photography/en/programme/maind-master-educational-program",
   },
   {
+    name: "Dardion.com",
+    description:
+      "Dardion is a platform for the collectors and professional artists who want to present their NFT collections of art mainly from Poland, Germany, Latvia, Estonia and other European countries. The main feature is strict quality control of published arts. Before publishing the artist has to pass certification for the quality of art and only then put arts as NFT-items up for sale.",
+    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
+    achievements:
+      "95+ screens were designed based on 16+ user scenarios, ALFA-version was succesfully launched in UAE, attracted +$120,000 investments",
+    img: [
+      "https://images.ctfassets.net/3i4n4r7kp8f6/lCPujjscJ5Fgt3TpTz6Gj/036a63f148b0d402998407fedef26da2/Dard_01.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/17dSbuIlGN1a4PmdWg690N/73dc5473b1cf173d812fb360c653ad12/7.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/4TJr2YSibV2VFCVAmhYrAA/16bd591f2516f52c667ad153119be67b/9.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/Fx0C3LqEYRPSG9tzrXDpu/f1e4fac903c51c937f52f8ad06462387/8.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/6B7yxaPzMhnVn6MSseaP9a/9fc3bb8e40da758fa07a4ef8fb192e7e/46.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/49EKyiBjz6uX7cUqJZ3hMt/1f3a9015410b77775e2059aff4674fb0/12.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/7sK27t0DJxqS2o9hZ8Nym3/ca2b32cca40f5a410e9561d9c0c9844a/11.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/29W5mQC69VYUo5TgWr7nxL/41f5de2dfc59231a8bee013b6fd44ec1/47.jpg",
+    ],
+    link: "https://interaction-design-portfolio.notion.site/Dard-NFT-Marketplace-893926fddd9a4f2d97e5d86dc04a7f91?pvs=4",
+    source: "https://nft.dardion.com",
+  },
+  {
     name: "Sandman lamp",
     description:
       "Sandman is a table interactive lamp that guides you in the dream world. By turning its different parts, you can change the light intensity, the light temperature and set a timer, to turn off the light gently. ",
@@ -133,26 +153,6 @@ const projects = [
     ],
     link: "https://interaction-design-portfolio.notion.site/Sandman-Lamp-1e3bfd2f483848cb841994ffef1be447?pvs=4",
     source: "https://vimeo.com/903646801",
-  },
-  {
-    name: "Dardion.com",
-    description:
-      "Dardion is a platform for the collectors and professional artists who want to present their NFT collections of art mainly from Poland, Germany, Latvia, Estonia and other European countries. The main feature is strict quality control of published arts. Before publishing the artist has to pass certification for the quality of art and only then put arts as NFT-items up for sale.",
-    responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
-    achievements:
-      "95+ screens were designed based on 16+ user scenarios, ALFA-version was succesfully launched in UAE, attracted +$120,000 investments",
-    img: [
-      "https://images.ctfassets.net/3i4n4r7kp8f6/lCPujjscJ5Fgt3TpTz6Gj/036a63f148b0d402998407fedef26da2/Dard_01.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/17dSbuIlGN1a4PmdWg690N/73dc5473b1cf173d812fb360c653ad12/7.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/4TJr2YSibV2VFCVAmhYrAA/16bd591f2516f52c667ad153119be67b/9.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/Fx0C3LqEYRPSG9tzrXDpu/f1e4fac903c51c937f52f8ad06462387/8.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/6B7yxaPzMhnVn6MSseaP9a/9fc3bb8e40da758fa07a4ef8fb192e7e/46.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/49EKyiBjz6uX7cUqJZ3hMt/1f3a9015410b77775e2059aff4674fb0/12.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/7sK27t0DJxqS2o9hZ8Nym3/ca2b32cca40f5a410e9561d9c0c9844a/11.jpg",
-      "https://images.ctfassets.net/3i4n4r7kp8f6/29W5mQC69VYUo5TgWr7nxL/41f5de2dfc59231a8bee013b6fd44ec1/47.jpg",
-    ],
-    link: "https://interaction-design-portfolio.notion.site/Dard-NFT-Marketplace-893926fddd9a4f2d97e5d86dc04a7f91?pvs=4",
-    source: "https://nft.dardion.com",
   },
 ];
 
