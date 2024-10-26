@@ -9,7 +9,7 @@ const Navbar = (props) => {
       <nav>
         <div className="logo">
           <a href="mailto:hannakastrytsa@gmail.com">
-            Say hello! 👋
+            Get in touch
           </a>
         </div>
         <input type="checkbox" id="menu-toggle" />
@@ -21,7 +21,7 @@ const Navbar = (props) => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#gallery">Gallery</a>
           </li>
           <li>
             <a href="#contact">

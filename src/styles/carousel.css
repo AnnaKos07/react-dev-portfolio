@@ -1,0 +1,35 @@
+.carousel-container {
+    margin-top: -1px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.slick-slide{
+    width: 200px;
+}
+
+.custom-slide{
+    width: 200px;
+}
+
+.carousel-container .slick-slide {
+    margin: 0 -10px; /* Отступы между слайдами */
+}
+
+.carousel-container .slick-slide {
+    will-change: transform; /* Оптимизация производительности */
+}
+
+.carousel-container .slick-slide img {
+    width: 100%; /* Ширина изображения в слайде */
+    height: auto; /* Высота автоматически подстраивается */
+    object-fit: cover; /* Изображение заполнит контейнер, сохраняя пропорции */
+}
+
+@media (max-width: 768px) {
+
+    .carousel-container, .carousel-spacing{
+        display: none;
+    }
+
+}

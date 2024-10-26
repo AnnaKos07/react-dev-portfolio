@@ -4,9 +4,9 @@ const userData = {
   firstName: "Hanna",
   lastName: " Kastrytsa",
   title: "About Me",
-  img: "https://images.ctfassets.net/3i4n4r7kp8f6/1oeDjOsXqvlXtenb2FRr3H/e4706ab3b07b60a3d2d8e86b359c8792/avatar.png",
+  img: "https://images.ctfassets.net/3i4n4r7kp8f6/1oeDjOsXqvlXtenb2FRr3H/994d910245823b520213df74f62b2569/portrait.png",
   description:
-    "Welcome to my portfolio, which showcases my expertise in product design. I have a keen eye for detail and a commitment to innovation, specialising in creating compelling and functional product experiences. ",
+    "UX Researcher and Designer with the skill set in data-driven research and digital prototyping. Worked on a digital ecosystem in cosmetology and surgery Beauty Market and designed Luna Care, a health LLM ecosystem for young women. Supported by Master of Arts in Interaction Design in SUPSI and healthcare experience.",
 };
 
 //personal information end
