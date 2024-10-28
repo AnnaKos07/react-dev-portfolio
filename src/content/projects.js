@@ -5,7 +5,7 @@ const projects = [
     short_description:
       "Ecosystem designed to educate and assist young women in the management of UTI diseases and the proper use of antibiotics.",
     description:
-      "Luna Care is a smart ecosystem designed to educate and assist young The goal of the ecosystem is to educate young women and promote healthy behavior to prevent and manage urinary infections. Luna Care includes three components: Luna Portable - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates.",
+      "Luna Care is a smart ecosystem designed to educate and assist young women in the management of UTI diseases and the proper use of antibiotics. The goal of the ecosystem is to educate young women and promote healthy behavior to prevent and manage urinary infections. Luna Care includes three components: Luna Portable - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates.",
     responsibilities: [
       "UX Research",
       "Interaction Design",
