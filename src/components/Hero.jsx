@@ -68,7 +68,7 @@ const Hero = (props) => {
         >
            <Grid container spacing={0.2} justifyContent="left">
           {skills.map((skill, index) => (
-            <motion.div variants={skillVariants}>
+            <motion.div key={skill.id || index} variants={skillVariants}>
             <Skill skill={skill}/>
           </motion.div>
           ))}

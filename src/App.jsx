@@ -1,23 +1,27 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Hero from "./components/Hero";
-import information from "./content/information";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectCard from "./components/ProjectCard";
 import Heading from "./components/Heading";
+import Carousel from "./components/Carousel";
+import ContactForm from "./components/ContactForm";
+
+import information from "./content/information";
 import projects from "./content/projects";
-import Carousel from './components/Carousel';
 import socials from "./content/socials";
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import ContactForm from "./components/ContactForm";
+
+import ProjectDetails from "./components/ProjectDetails"; // Страница для деталей проекта
 
 function App() {
+
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true });
-  const getRandomXs = () => Math.floor(Math.random() * (2 - 1 + 1)) + 2;
 
   const imagesLeft = [
     "https://images.ctfassets.net/3i4n4r7kp8f6/6eJoCiVHaLSsavaHLHJnup/00709bf471ec292985a56e96a195dfbf/1.jpg",
@@ -39,7 +43,7 @@ function App() {
     if (inView) {
       controls.start("visible");
     }
-  }, [controls, inView]);
+  }, [inView, controls]);
 
   const containerVariants = {
     hidden: {},
@@ -50,70 +54,78 @@ function App() {
     },
   };
 
+
+
   return (
-    <>
+    <Router>
       <Navbar
         firstName={information.userData.firstName}
         lastName={information.userData.lastName}
       />
-      <Hero
-        img={information.userData.img}
-        description={information.userData.description}
-        title={information.userData.title}
-      />
-
-
-      <div class="spacing"/>
-
-      <section id="projects">
-        <Heading firstWord="My" secondWord="Projects" />
-        <motion.div
-          className="project-map"
-          ref={ref}
-          initial="hidden"
-          animate={controls}
-          variants={containerVariants}
-        >
-          {projects.map((project, index) => (
-            <div key={index}>
-              <ProjectCard
-                name={project.name}
-                short_description={project.short_description}
-                description={project.description}
-                responsibilities={project.responsibilities}
-                achievements={project.achievements}
-                img={project.img}
-                link={project.link}
-                source={project.source}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero
+                img={information.userData.img}
+                description={information.userData.description}
+                title={information.userData.title}
               />
-            </div>
-          ))}
-        </motion.div>
-      </section>
-      
-      <div class="spacing carousel-spacing"/>
-      <section id="gallery">
-        <Carousel images={imagesRight} reverse={false} imageWidth="23vw"/>
-        <Carousel images={imagesLeft} reverse={true} imageWidth="23vw"/>
-      </section>
-      <div class="spacing carousel-spacing"/>
-      <section id="contact">
-        <div class="left-contact">
-          <Heading firstWord="Contact" secondWord="Me" />
-          <div className="hero-socials">
-                {socials.map((social, index) => (
-                  <a className="social-link" target="_blank" key={index} href={social.url}>
-                    {social.icon}
-                    <img src="./arrow.svg"></img>
-                  </a>
-                ))}
-          </div>
-        </div>
-        <ContactForm />
-      </section>
-
+              <div className="spacing" />
+              <section id="projects">
+                <Heading firstWord="My" secondWord="Projects" />
+                <div className="project-map">
+                  {projects.map((project, index) => (
+                    <div key={index}>
+                      <ProjectCard
+                        id={project.id}
+                        name={project.name}
+                        short_description={project.short_description}
+                        description={project.description}
+                        responsibilities={project.responsibilities}
+                        achievements={project.achievements}
+                        head_image={project.head_image}
+                        link={project.link}
+                        source={project.source}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </section>
+              <div className="spacing carousel-spacing" />
+              <section id="gallery">
+                <Carousel images={imagesRight} reverse={false} imageWidth="23vw" />
+                <Carousel images={imagesLeft} reverse={true} imageWidth="23vw" />
+              </section>
+              <div className="spacing carousel-spacing" />
+              <section id="contact">
+                <div className="left-contact">
+                  <Heading firstWord="Contact" secondWord="Me" />
+                  <div className="hero-socials">
+                    {socials.map((social, index) => (
+                      <a
+                        className="social-link"
+                        target="_blank"
+                        key={index}
+                        href={social.url}
+                        rel="noreferrer"
+                      >
+                        {social.icon}
+                        <img src="./arrow.svg" alt="arrow" />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+                <ContactForm />
+              </section>
+            </>
+          }
+        />
+        <Route path="/:name" element={<ProjectDetails projects={projects} />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
