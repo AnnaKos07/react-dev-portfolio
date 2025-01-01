@@ -12,8 +12,6 @@ const ProjectDetails = ({ projects }) => {
     window.scrollTo(0, 0);
   }, []);
 
-
-
   // Проверяем, есть ли проекты
   if (!projects || projects.length === 0) {
     return <h1>Loading...</h1>;
@@ -28,7 +26,6 @@ const ProjectDetails = ({ projects }) => {
     navigate("/");
   };
 
-  // Если проект не найден
   if (!project) {
     return <h1>Project not found</h1>;
   } 
@@ -36,7 +33,6 @@ const ProjectDetails = ({ projects }) => {
   const backgroundColor = project.backgroundColor || "#FFFFFF";
   const textColor = project.textColor || "#0F1729";
 
-  // Если проект найден
   return (
     <div className="project-details"  style={{ backgroundColor: backgroundColor, color: textColor }}>
       <img class="head-image" src={project.head_image}></img>
@@ -53,16 +49,12 @@ const ProjectDetails = ({ projects }) => {
         ))}
       </div>
       
-
-      {/* Рендерим все поля объекта проекта, исключая ненужные */}
       <div className="project-data">
   {Object.entries(project).map(([key, value]) => {
-    // Исключаем рендеринг определенных ключей
     if (["name", "id", "backgroundColor", "textColor", "head_image", "responsibilities", "years", "short_description", "link"].includes(key)) {
       return null;
     }
 
-    // Если ключ содержит "img", рендерим как изображение
     if (key.toLowerCase().includes("img")) {
       return (
         <div className="project-field" key={key}>
@@ -71,7 +63,6 @@ const ProjectDetails = ({ projects }) => {
       );
     }
 
-    // Если поле - массив, отображаем как список
     if (Array.isArray(value)) {
       return (
         <div className="project-field" key={key}>
@@ -85,7 +76,6 @@ const ProjectDetails = ({ projects }) => {
       );
     }
 
-    // Рендерим текстовое значение
     return (
       <div className="project-field" key={key}>
         <h2>{key.replace(/_/g, " ")}</h2>
@@ -94,7 +84,6 @@ const ProjectDetails = ({ projects }) => {
     );
   })}
 </div>
-      {/* Кнопка для перехода на главную */}
       <button  onClick={goToHome} className="home-button">
           Go to projects
         </button>

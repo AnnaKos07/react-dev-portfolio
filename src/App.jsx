@@ -25,9 +25,9 @@ function App() {
 
   const imagesLeft = [
     "https://images.ctfassets.net/3i4n4r7kp8f6/6eJoCiVHaLSsavaHLHJnup/00709bf471ec292985a56e96a195dfbf/1.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/rHtpY7bfTzP4UkSzx3doZ/82a1a70bda9822b0d3e4ae3041dd0bac/2.jpg",
+    "https://images.ctfassets.net/3i4n4r7kp8f6/6QZemM5XdpEiriZJIII42K/a5042aabccf4365d25b7c78d17059eac/6.jpg",
     "https://images.ctfassets.net/3i4n4r7kp8f6/4FFLXOD0qAxXsiovcyyPkE/f3eb978d37f076dff752afc2ffb75e86/3.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/7dG0l14sYhgA3evCqkay2f/36ff1a82998991fa3e9f0fffc2cc06bb/4.jpg",
+    "https://images.ctfassets.net/3i4n4r7kp8f6/zOLKaoXL7iJKRbZqranKq/01f5cab54e2951493a4347d8ae458368/9.jpg",
     "https://images.ctfassets.net/3i4n4r7kp8f6/46mktqmDyG2pxPZ0RYkGNa/dfaef5a9b27b33d805466518a16fd353/5.jpg",
   ];
 

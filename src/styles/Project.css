@@ -10,16 +10,11 @@
     width: 100%;
 }
 
-.project-details img{
-    width: 80%;
-}
-
 .project-field{
     margin-bottom: 40px;
     padding: 0px;
     height: 95%;
 }
-
 
 .home-button{
   background-color: #1530BA; 
@@ -71,12 +66,17 @@
 @media (max-width: 2100px) {
     .project-details p {
         margin: 0vw 22vw;
+        line-height: 170%;
     }
     .project-details{
         margin: 0px;
     }
     .custom-resp{
         padding: 0vw 22vw;
+    }
+
+    .project-details img{
+        width: 80%;
     }
 
     .home-button{
@@ -106,12 +106,20 @@
   
 @media (max-width: 1300px) {
     .project-details p{
-        margin: 0vw 8vw;
+        margin: 0vw 4vw;
+    }
+
+    .project-details{
+        padding: 0vw 6vw;
+    }
+
+    .project-details .head-image{
+        width: 115%;
     }
 
     .project-details h2{
         font-size: 24px;
-        margin: 1vw 8vw;
+        margin: 1vw 4vw;
         text-align: left;
         padding: 0;
         width: 100%;
@@ -121,10 +129,7 @@
         margin: 0vw 8vw 3vw 8vw;
         padding: 24px 120px;
     }
-
-    .project-details{
-        margin: 0px 40px;
-    }
+    
     .custom-resp{
         padding: 0vw 8vw;
     }
@@ -132,8 +137,13 @@
 }
 
 @media (max-width: 1024px) {
-    .project-details p{
-        margin: 0vw 6vw;
+
+    .project-details{
+        padding: 0vw 6vw;
+    }
+
+    .project-details img{
+        width: 100%;
     }
 
     .project-details h2{
@@ -155,6 +165,12 @@
 }
 
 @media (max-width: 768px) {
+
+    .project-details{
+       padding: 0px 16px;
+       margin: 0;
+    }
+
     .project-details p{
         margin: 0vw;
     }
@@ -169,7 +185,7 @@
 
     .home-button{
         margin: 0vw 0vw 3vw 0vw;
-        width: 90%;
+        width: 100%;
         padding: 24px 24px;
     }
 
@@ -177,7 +193,5 @@
         padding: 0vw;
     }
 
-    .project-details{
-        margin: 0px 24px;
-    }
+    
 }

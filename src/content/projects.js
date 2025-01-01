@@ -17,6 +17,8 @@ const projects = [
     ],
     Abstract:
       "Luna Care is a device designed to educate and assist young women in the management of cystitis and the proper use of antibiotics. Targeted at girls between the ages of 16 and 22, the device uses an LED interface to track menstrual cycle, monitor hydration, and manage antibiotic intake. Luna Care includes three components: Luna Portable  - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates. Based on solid research, Luna Care aims to promote healthy habits and reduce antimicrobial resistance.",
+    Results:
+      "The prototype was succesfully developed and presented to stakeholders. The device was designed and developed using Arduino hardware. The mobile application prototype was succesfully approved and tested by target audience. The grade 6.0/6.0 for Multimodal Experience course was received.",
     img_1:
       "https://images.ctfassets.net/3i4n4r7kp8f6/uwS0B5MuG31LNqvtyJR3c/0e1d3169ca880754143d532affd45217/body-luna.jpg",
     Project_goal:
@@ -52,7 +54,7 @@ const projects = [
     years: "2022 - 2024",
     short_description:
       "The CRM platform is designed to facilitate the acquisition of new customers, foster professional development, and automate business operations. Salons have the opportunity to increase their earnings by offering discounts on available time slots.",
-    Achievements:
+    Results:
       "Since its launch in November 2023, the platform has effectively attracted initial salons. The Beauty Marketplace and CRM System, launched by the end of 2023, meet all requirements, with ongoing user feedback for enhancements. Over 50 diverse organisations offering various services have been attracted to the platform.",
     Abstract:
       "Beauty Market is an advanced ecosystem of Marketplace and CRM Platform for booking beauty service to find service providers, to make appointments and receive recommendations. User can easily find, book, rebook and reschedule their appointments.",
@@ -112,7 +114,7 @@ const projects = [
       "Design System building",
       "User testing",
     ],
-    Achievements:
+    Results:
       "Since its launch in November 2023, the platform has effectively attracted initial salons. The Beauty Marketplace and CRM System, launched by the end of 2023, meet all requirements, with ongoing user feedback for enhancements. Over 50 diverse organisations offering various services have been attracted to the platform.",
 
     img_1:
@@ -155,7 +157,7 @@ const projects = [
     responsibilities: ["UX Research", "UI Design", "HTML / CSS"],
     The_problem:
       "The concept behind Cterm was to provide a non-invasive, automated health monitoring tool for companies during the COVID-19 pandemic. The system, which included a thermal imaging camera set up at the entrance to the office, could scan employees' faces, recognize their identity based on name and department, and monitor their body temperatures. To ensure privacy, the system used machine learning trained on an internal database of employee photos, keeping all data strictly within the company’s local network, preventing any external data exposure. In cases where an employee’s body temperature exceeded 37.3°C, an alert was sent to reception staff, advising them to direct the employee to the medical office for COVID testing. The system would also notify the employee's direct supervisor, allowing for quick action to ensure workplace safety and minimize potential health risks.",
-    Achievements:
+    Results:
       "The Cterm system was successfully implemented and used within IBA Group, where it provided reliable, real-time health monitoring for employees, contributing to workplace safety during the pandemic.",
     img_1:
       "https://images.ctfassets.net/3i4n4r7kp8f6/4k72Rfy5ouUchzQvbgyuOv/188eb566fafc739d2964f5cdfc9280ae/cterm-1.jpg",
@@ -217,7 +219,7 @@ const projects = [
     short_description:
       "Collective.Money – platform (digital hub) provides users with instant access to information of interest about crypto projects in a form convenient for further use, with the possibility of immersion and training for new clients in world of crypto projects.",
     responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
-    Achievements:
+    Results:
       "100+ screens were designed based on 15+ user scenarious, 3% increased conversion after ALFA-launching, attracted +$200,000 investments.",
     Problem:
       "There is a lack in structured and truthful information and effective communication channels between users and cryptocurrency projects within the trading field. The team had started to develop the project on a back-side since 2023. So the whole structure and logical part from programming and architecture side was built before design side.",
@@ -252,13 +254,13 @@ const projects = [
     name: "Dardion.com",
     years: "2022-2023",
     backgroundColor: "#191C1F",
-    textColor: "#FFFFFF",
+    textColor: "#E2DFDF",
     head_image:
       "https://images.ctfassets.net/3i4n4r7kp8f6/6TApQdeMqarhQMZQXgxELr/cb8460ca30cf2da760894d80db9c6f68/Preview.jpg",
     short_description:
       "Dardion is a platform for the collectors and professional artists who want to present their NFT collections of art mainly from Poland, Germany, Latvia, Estonia and other European countries. The main feature is strict quality control of published arts.",
     responsibilities: ["UX Research", "UI Design", "Branding", "Design System"],
-    Achievements:
+    Results:
       "95+ screens were designed based on 16+ user scenarios, ALFA-version was succesfully launched in UAE, attracted +$120,000 investments",
     Problem:
       "The main issue was creating new exclusive marketplace which is special for professional artists from Poland and potentially from Germany, Latvia, Estonia and other European countries. The idea was to design the NFT shop for premium segment of NFT arts to avoid the features of mass market. ",

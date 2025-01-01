@@ -82,18 +82,18 @@ p{
   }
 
 
-.hero-typewriter {
-  display: flex;
-  flex-direction: column;
-  margin-top: 8px;
-  margin-left: 40px;
-  gap: 10px;
-  font-size: 80px;
-  font-weight: 400;
-  letter-spacing: -3px;
-  font-family: "Inter";
-  transition: opacity 1s ease-in-out;
-}
+  .hero-typewriter {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 40px;
+    gap: 10px;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: -3px;
+    font-family: "Inter";
+    transition: opacity 1s ease-in-out;
+  }
 
   .project-img img{
     width: 80%;
@@ -115,12 +115,7 @@ p{
     width: 80%;
   }
 
-  .responsibilities{
-    display: flex;
-    width: 90%;
-    flex-wrap: wrap;
-    margin-top: 24px;
-  }
+  
 
   .project-title h1{
     font-size: 40px;
@@ -129,19 +124,13 @@ p{
     font-family: "Inter";
   }
 
-  .modal-content {
-    width: 70%; /* 70% ширины окна */
-    height: 80%;
+  .responsibilities{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-top: 24px;
   }
-  .modal-left {
-    width: 50%;
-    height: 100%;
-  }
-  .modal-right {
-    width: 50%; /* 50% ширины модального окна */
-    height: 100%;
-    padding: 20px;
-  }
+
   .footer {
     display: flex;
     padding: 24px 40px;
@@ -207,6 +196,7 @@ p{
     align-items: center;
     margin-top: 64px;
     padding-bottom: 2px;
+    letter-spacing: -1px;
     font-size: 32px;
     color: #0F1729;
     position: relative;
@@ -269,6 +259,10 @@ p{
   .footer {
     display: flex;
     padding: 24px 40px;
+  }
+  .contact-section h1{
+    font-size: 40px;
+    letter-spacing: -0.5px;
   }
 }
 
@@ -341,7 +335,8 @@ p{
   }
 
   .responsibilities{
-    margin: 8px 0 24px 0;
+    margin: 8px 0 8px 0;
+    width: 100%;
   }
 
   .resp p{
@@ -387,7 +382,8 @@ p{
     padding: 24px 24px;
   }
   .social-link{
-    padding: 0px 8px 0px 8px;
+    padding: 0px 4px 0px 2px;
+    margin-right: 8px;
   }
   .modal-content{
     height: 95%;
@@ -416,7 +412,7 @@ p{
   }
 
   .hero-socials{
-    margin: 0px 16px;
+    margin: 0px 14px;
     flex-direction: row;
   }
 
@@ -430,8 +426,8 @@ p{
   }
 
   .contact-section h1{
-    font-size: 48px;
-    letter-spacing: -1px;
+    font-size: 40px;
+    letter-spacing: -1.5px;
   }
 
   .contact-section p{
@@ -444,6 +440,7 @@ p{
     margin-top: 24px;
     padding-bottom: 2px;
     font-size: 24px;
+    letter-spacing: -1px;
     color: #0F1729;
   }
 
