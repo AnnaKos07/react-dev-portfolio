@@ -1,51 +1,60 @@
 //projects start
 const projects = [
   {
-    id: 1,
-    name: "Luna Care",
-    years: "2024",
+    id: 8,
+    name: "TrAIL",
+    years: "2024-2025",
     head_image:
-      "https://downloads.ctfassets.net/3i4n4r7kp8f6/2o2BSiAnsbV7L6J4eCiKCr/a5c194d197ae0c2d7658b39f77799da7/video-for-gif-4.gif",
+      "https://videos.ctfassets.net/3i4n4r7kp8f6/6OI3zQIhAGxsOSckfnzVSn/02ff9b14ed48fbaa3ac025638185cd66/video.mp4",
     short_description:
-      "Ecosystem designed to educate and assist young women in the management of UTI diseases and the proper use of antibiotics. The device aims to provide daily support through three main modalities: menstrual cycle monitoring, hydration, and antibiotic management.",
+      "Interactive AI-powered ecosystem to improve safety and preparation of hikers by providing assistance before, during and after hiking in mountains.",
     responsibilities: [
       "UX Research",
-      "Interaction Design",
-      "LLM prototyping",
-      "Arduino programming",
+      "UI Design",
+      "AI Prototyping",
+      "3D modeling",
+      "Arduino",
+      "LLM Prototyping",
       "User testing",
     ],
-    Abstract:
-      "Luna Care is a device designed to educate and assist young women in the management of cystitis and the proper use of antibiotics. Targeted at girls between the ages of 16 and 22, the device uses an LED interface to track menstrual cycle, monitor hydration, and manage antibiotic intake. Luna Care includes three components: Luna Portable  - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates. Based on solid research, Luna Care aims to promote healthy habits and reduce antimicrobial resistance.",
     Results:
-      "The prototype was succesfully developed and presented to stakeholders. The device was designed and developed using Arduino hardware. The mobile application prototype was succesfully approved and tested by target audience. The grade 6.0/6.0 for Multimodal Experience course was received.",
+      "Designed and developed a fully functional prototype of trAIl integrating AI, voice interaction, and biometric monitoring. Successfully tested the system with users in a real mountains with high-pressure environment. Presented TrAIl as a Master’s thesis project and received recognition for its innovative approach to safety and AI integration.",
+    Abstract:
+      "TrAIl is an AI-powered ecosystem designed to enhance safety and decision-making for mountain travelers. It integrates a voice assistant, biometric monitoring, and real-time data sharing to provide dynamic guidance, assist in emergency situations, and improve the overall hiking experience. By leveraging AI-driven insights and real-time feedback, TrAIl helps users navigate unpredictable terrains while promoting safer outdoor exploration.",
     img_1:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/uwS0B5MuG31LNqvtyJR3c/0e1d3169ca880754143d532affd45217/body-luna.jpg",
-    Project_goal:
-      "The goal of the ecosystem is to educate young women and promote healthy behavior to prevent and manage urinary infections. Luna focuses on three key areas to promote healthy behavior and prevent urinary infections: Menstrual Cycle Monitoring: Luna Care helps women track their menstrual cycles, providing insights into their reproductive health. Hydration Management: Luna Care encourages regular water intake by sending reminders and tracking daily hydration levels. Pills / antibiotics Management: Luna prevent incorrect using of antibiotics and the self-treatment of UTI diseases",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1PtOgh47JmFiqQzriEo0XL/caec69b91aef4b965e165aabde574826/1.jpg",
+    Problem:
+      "Hikers and mountain travelers face increasing risks due to unpredictable natural hazards. Existing solutions often lack emergency support, and personalized guidance. In high-stress situations, cognitive load can impair decision-making, making it essential to have an AI-powered assistant that provides structured, timely, and context-aware guidance to ensure safety and informed decision-making.",
+    img_11:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3frrx7xUj5lTCSbsDCHcH8/679e34a6fd30241c429adf4ce3263547/IMG_6174.jpg",
+    Components_and_Functionality:
+      "The trAIL ecosystem comprises three main components: the trAIl mobile application, the trail.db biometric sensor, and the Walker portable voice assistant. The trAIl app contains main features such as route planning, weather monitoring, a digital hiking journal, and a community platform. It also includes chat-based AI-assitant Walker which supports hiker during preparation for the route. The trail.db sensor monitors body parameters like heart rate, heart rate variability, and breathing patterns to detect stress and panic. The Walker device provides hands-free, voice-activated assistance, delivering real-time updates, route guidance, and step-by-step emergency protocols.",
     img_2:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/1wkVfRhsDBYleV7YH6iewq/ed98aeb95f1e5ebba1386309f5d4ab4d/3.jpg",
-    Research:
-      "To better understand young people's habits and knowledge regarding antibiotic use and cystitis management, the following were conducted. We made an interview with Medical professionals, Conscious patient, Holistic medicine supporter and confident in self-treatment who is not aware of the antibiotic consequences. We also conducted desk research to understand the current problem in Europe related to antibiotics resistance. The need to educate young women about the symptoms of cystitis and the proper use of antibiotics was clear from the research. Early discontinuation of antibiotics is a common practice that contributes to the development of antimicrobial resistance.",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/60fpGXo8H4OKrU4UtDHAJo/bd1a506b7b89c205853b61df671366e8/2.jpg",
     img_3:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/4AG7AeQYiEKmxvlmAO0I59/1f3ffb8c3c14e5aaadab8df443d20c8e/PROCESS.jpg",
-    UI_Design_of_App:
-      "Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates on the three main modalities. The widget provides easy access to information on hydration, menstrual cycle, and progress on the antibiotic course, ensuring that the user is always informed and supported.",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1bSYFXWZARUiqovP9vX2tw/32bd581274d9e058b368c6ec124d407d/IMG_6182-2.jpg",
     img_4:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/3G6z23cPfbcdrPfEIUBS5j/a79db5089de5236320aab382beff0194/ui-design.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/5NtgpVnZSloYBfXp2wRwJX/00d958c885080d5c41f8d12025b694a5/4.jpg",
     img_5:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/6UGtwAguCPQ8KQSjbMyLeO/54bfc486a3ee74d2c6c70f1a44e8b1cc/watch-UI.png",
-    Design_of_Luna_portable_device:
-      "We had a main tool for the traker interface - it’s LED ring. So we decided to split them on days in one month to track the water, pills and period. In final interface we use different colours of LED to show the days. We also added the “talking” interface of Luna to show her statement: listening, speaking and thinking. The shape was designed in Fusion 360 and then 3D-printed using PLA filament.",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/78o5uVasPl7lXauTZmWxeU/2dca8a8f5cbfdcb81b7adbd712e21012/3.jpg",
     img_6:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/1aOhrxCZ5CmC7vjKMNm4bh/a600ce3a77eec8ca9c782be9102e48a2/6.jpg",
-    Challenges:
-      "Prototype is not a final product. It was challenging to ignore feasibility concerns entirely, as the desire to create something practical and achievable often creeps into the design process.",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3TV1uV3y23Dw5T1qH7MBVv/558cd2cb3bef3ae40201eaae087d278c/5.jpg",
     img_7:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/1oZf97AmeCUvPaS3uL9JTy/cd7eb3635641067ff4eeeb1a161458c3/Challenges.jpg",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/74XoMJW5ety2xdCy7Iw3rK/b61d5a24393f94c9389e1514b77f5e69/6.jpg",
+    Research:
+      "The research process involved a combination of qualitative and quantitative methods to gain a deep understanding of hiker needs, pain points, and emergency response behaviors. Cognitive load analysis helped explore how stress affects decision-making, influencing the assistant’s interaction design to ensure clarity and reassurance in high-pressure situations. Field studies and observational research provided insights into terrain-specific risks and common obstacles faced in mountainous environments.  User interviews were conducted with hikers of different experience levels to understand their challenges, expectations. ",
     img_8:
-      "https://images.ctfassets.net/3i4n4r7kp8f6/1yyrtA7h4DUlOIlrOcGtyi/970e66bf862f681c118aca85e138f751/logo.png",
+      "https://images.ctfassets.net/3i4n4r7kp8f6/BHhIVC7hL9c3qB6brQUR9/cf05fa89ae10d5a25e12a0b584a7f005/pain-points.jpg",
+    User_flows:
+      "The user flow design for TrAIl focused on seamless interaction between hikers and the AI-powered ecosystem. The onboarding flow begins with account creation, biometric setup, and device synchronization to ensure that the user receives personalized assistance. The planning phase allows users to explore route recommendations, check real-time weather and terrain conditions, and receive AI-driven safety insights. During the hike, the assistant provides continuous monitoring, offering biometric alerts, navigation adjustments, and emergency protocols when necessary. In a critical situation, the emergency response flow activates, prompting the assistant to assess the user’s condition, guide them through step-by-step safety measures, and, if needed, trigger satellite-based emergency signals.",
+    img_9:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1N8u720q1LYECYIjE2FsvO/cefcb80cd96beaa08968c45b2559bbfb/user-flows.jpg",
+    img_10:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/18JnbFISCwIxSFeODGQ0lF/56241a9e877c943618378f288d0699a0/IMG_3906.jpg",
+    img_12:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/2YK7rr5Ty5qzpZbm0eDCSm/8651f58dcb96375c19ccf0dd48b7ce4f/trail-final.jpg",
   },
+
   {
     id: 2,
     head_image:
@@ -97,6 +106,53 @@ const projects = [
       "Unfortunately, most of user flows are under NDA, and it's available only after subscribing on Beauty Market Business+ subscription.",
     img_end:
       "https://images.ctfassets.net/3i4n4r7kp8f6/62VEwQHVJSKohvZ8Lsv41O/541518c122d1257dc3b5945e8fd27056/end.jpg",
+  },
+
+  {
+    id: 1,
+    name: "Luna Care",
+    years: "2024",
+    head_image:
+      "https://downloads.ctfassets.net/3i4n4r7kp8f6/2o2BSiAnsbV7L6J4eCiKCr/a5c194d197ae0c2d7658b39f77799da7/video-for-gif-4.gif",
+    short_description:
+      "Ecosystem designed to educate and assist young women in the management of UTI diseases and the proper use of antibiotics. The device aims to provide daily support through three main modalities: menstrual cycle monitoring, hydration, and antibiotic management.",
+    responsibilities: [
+      "UX Research",
+      "Interaction Design",
+      "LLM prototyping",
+      "Arduino programming",
+      "User testing",
+    ],
+    Abstract:
+      "Luna Care is a device designed to educate and assist young women in the management of cystitis and the proper use of antibiotics. Targeted at girls between the ages of 16 and 22, the device uses an LED interface to track menstrual cycle, monitor hydration, and manage antibiotic intake. Luna Care includes three components: Luna Portable  - smart speaker which contain LUNA character to provide the girl with her reliable friend and assistant. Smart bottle cup - Luna Aqua which tracks the water intake during the day and send the data to Luna. Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates. Based on solid research, Luna Care aims to promote healthy habits and reduce antimicrobial resistance.",
+    Results:
+      "The prototype was succesfully developed and presented to stakeholders. The device was designed and developed using Arduino hardware. The mobile application prototype was succesfully approved and tested by target audience. The grade 6.0/6.0 for Multimodal Experience course was received.",
+    img_1:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/uwS0B5MuG31LNqvtyJR3c/0e1d3169ca880754143d532affd45217/body-luna.jpg",
+    Project_goal:
+      "The goal of the ecosystem is to educate young women and promote healthy behavior to prevent and manage urinary infections. Luna focuses on three key areas to promote healthy behavior and prevent urinary infections: Menstrual Cycle Monitoring: Luna Care helps women track their menstrual cycles, providing insights into their reproductive health. Hydration Management: Luna Care encourages regular water intake by sending reminders and tracking daily hydration levels. Pills / antibiotics Management: Luna prevent incorrect using of antibiotics and the self-treatment of UTI diseases",
+    img_2:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1wkVfRhsDBYleV7YH6iewq/ed98aeb95f1e5ebba1386309f5d4ab4d/3.jpg",
+    Research:
+      "To better understand young people's habits and knowledge regarding antibiotic use and cystitis management, the following were conducted. We made an interview with Medical professionals, Conscious patient, Holistic medicine supporter and confident in self-treatment who is not aware of the antibiotic consequences. We also conducted desk research to understand the current problem in Europe related to antibiotics resistance. The need to educate young women about the symptoms of cystitis and the proper use of antibiotics was clear from the research. Early discontinuation of antibiotics is a common practice that contributes to the development of antimicrobial resistance.",
+    img_3:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/4AG7AeQYiEKmxvlmAO0I59/1f3ffb8c3c14e5aaadab8df443d20c8e/PROCESS.jpg",
+    UI_Design_of_App:
+      "Luna Care includes an interactive widget that can be used on smartphones to provide real-time updates on the three main modalities. The widget provides easy access to information on hydration, menstrual cycle, and progress on the antibiotic course, ensuring that the user is always informed and supported.",
+    img_4:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/3G6z23cPfbcdrPfEIUBS5j/a79db5089de5236320aab382beff0194/ui-design.jpg",
+    img_5:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/6UGtwAguCPQ8KQSjbMyLeO/54bfc486a3ee74d2c6c70f1a44e8b1cc/watch-UI.png",
+    Design_of_Luna_portable_device:
+      "We had a main tool for the traker interface - it’s LED ring. So we decided to split them on days in one month to track the water, pills and period. In final interface we use different colours of LED to show the days. We also added the “talking” interface of Luna to show her statement: listening, speaking and thinking. The shape was designed in Fusion 360 and then 3D-printed using PLA filament.",
+    img_6:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1aOhrxCZ5CmC7vjKMNm4bh/a600ce3a77eec8ca9c782be9102e48a2/6.jpg",
+    Challenges:
+      "Prototype is not a final product. It was challenging to ignore feasibility concerns entirely, as the desire to create something practical and achievable often creeps into the design process.",
+    img_7:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1oZf97AmeCUvPaS3uL9JTy/cd7eb3635641067ff4eeeb1a161458c3/Challenges.jpg",
+    img_8:
+      "https://images.ctfassets.net/3i4n4r7kp8f6/1yyrtA7h4DUlOIlrOcGtyi/970e66bf862f681c118aca85e138f751/logo.png",
   },
   {
     id: 3,
