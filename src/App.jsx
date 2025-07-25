@@ -23,21 +23,21 @@ function App() {
   const controls = useAnimation();
   const [ref, inView] = useInView({ triggerOnce: true });
 
-  const imagesLeft = [
-    "https://images.ctfassets.net/3i4n4r7kp8f6/6eJoCiVHaLSsavaHLHJnup/00709bf471ec292985a56e96a195dfbf/1.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/6QZemM5XdpEiriZJIII42K/a5042aabccf4365d25b7c78d17059eac/6.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/4FFLXOD0qAxXsiovcyyPkE/f3eb978d37f076dff752afc2ffb75e86/3.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/zOLKaoXL7iJKRbZqranKq/01f5cab54e2951493a4347d8ae458368/9.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/46mktqmDyG2pxPZ0RYkGNa/dfaef5a9b27b33d805466518a16fd353/5.jpg",
-  ];
+  // const imagesLeft = [
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/6eJoCiVHaLSsavaHLHJnup/00709bf471ec292985a56e96a195dfbf/1.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/6QZemM5XdpEiriZJIII42K/a5042aabccf4365d25b7c78d17059eac/6.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/4FFLXOD0qAxXsiovcyyPkE/f3eb978d37f076dff752afc2ffb75e86/3.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/zOLKaoXL7iJKRbZqranKq/01f5cab54e2951493a4347d8ae458368/9.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/46mktqmDyG2pxPZ0RYkGNa/dfaef5a9b27b33d805466518a16fd353/5.jpg",
+  // ];
 
-  const imagesRight = [
-    "https://images.ctfassets.net/3i4n4r7kp8f6/6QZemM5XdpEiriZJIII42K/a5042aabccf4365d25b7c78d17059eac/6.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/2PpanLPeqx2QgOnkNRgjU1/2ba03c1ffe981c3f359feb6e9109e0df/7.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/11JfL04IC5Zbmjqh8Fgun0/c18f3a8102be3e7b06d57407f2cb75a0/8.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/zOLKaoXL7iJKRbZqranKq/01f5cab54e2951493a4347d8ae458368/9.jpg",
-    "https://images.ctfassets.net/3i4n4r7kp8f6/21s759GiJssynVPJSqBwcJ/8a904239e4ddf3f57033bb53c4578364/10.jpg",
-  ];
+  // const imagesRight = [
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/6QZemM5XdpEiriZJIII42K/a5042aabccf4365d25b7c78d17059eac/6.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/2PpanLPeqx2QgOnkNRgjU1/2ba03c1ffe981c3f359feb6e9109e0df/7.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/11JfL04IC5Zbmjqh8Fgun0/c18f3a8102be3e7b06d57407f2cb75a0/8.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/zOLKaoXL7iJKRbZqranKq/01f5cab54e2951493a4347d8ae458368/9.jpg",
+  //   "https://images.ctfassets.net/3i4n4r7kp8f6/21s759GiJssynVPJSqBwcJ/8a904239e4ddf3f57033bb53c4578364/10.jpg",
+  // ];
 
   useEffect(() => {
     if (inView) {
@@ -93,11 +93,11 @@ function App() {
                   ))}
                 </div>
               </section>
-              <div className="spacing carousel-spacing" />
-              <section id="gallery">
+              {/* <div className="spacing carousel-spacing" /> */}
+              {/* <section id="gallery">
                 <Carousel images={imagesRight} reverse={false} imageWidth="23vw" />
                 <Carousel images={imagesLeft} reverse={true} imageWidth="23vw" />
-              </section>
+              </section> */}
               <div className="spacing carousel-spacing" />
               <section id="contact">
                 <div className="left-contact">

@@ -17,9 +17,9 @@ const Navbar = (props) => {
     navigate("/#projects");
   }
 
-  const gallery = () =>{
-    navigate("/#gallery");
-  }
+  // const gallery = () =>{
+  //   navigate("/#gallery");
+  // }
 
   const contact = () =>{
     navigate("/#contact");
@@ -44,9 +44,9 @@ const Navbar = (props) => {
           <li>
             <a href="/#projects" onClick={projects}>Projects</a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#gallery" onClick={gallery} >Gallery</a>
-          </li>
+          </li> */}
           <li>
             <a href="/#contact" onClick={contact}>
               Contact Me

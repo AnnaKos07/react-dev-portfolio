@@ -8,11 +8,9 @@ const ProjectDetails = ({ projects }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Прокрутка страницы к началу при загрузке компонента
     window.scrollTo(0, 0);
   }, []);
 
-  // Проверяем, есть ли проекты
   if (!projects || projects.length === 0) {
     return <h1>Loading...</h1>;
   }
