@@ -4,11 +4,26 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Link } from "react-router-dom";
 
 const ProjectCard = (props) => {
+
+  const isVideo = props.head_image.endsWith('.mp4');
+  //|| props.head_image.includes('video')
+
   return (
     <div>
       <Link to={`/${props.name.toLowerCase().replace(/\s+/g, '-')}`} className="project-card">
         <div className="project-img">
+          {isVideo ? (
+            <video
+              src={props.head_image}
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls={false}
+            />
+          ) : (
           <img src={props.head_image} alt={props.name} />
+           )}
         </div>
         <div className="project-content">
           <div className="project-title">
